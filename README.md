@@ -1,3 +1,24 @@
+Actualmente la app cuenta con las siguientes características:
+
+Muestra la lista de los 151 pokémon de la primera generación y al hacer click en ellos muestra la siguiente información:
+
+- Número de pokémon
+- Nombre
+- Tipo
+- Preevolución
+- Evolución
+
+Además dispone de un buscador para encontrar antes al pokémon deseado.
+El buscador detecta los onchanges y puede buscar en cada caracter, pero debido a que en esta versión
+está haciendo un fetch cada vez que busca solo permito que haga la búsqueda al pinchar en el botón buscar para no saturar la api.
+
+Pudo mejorar la app haciendo solo un fetch cada vez que se abre (ya tengo un método onLoad) y con esa información hacer todas las consultas
+rápidamente y sin saturarla.
+
+También puedo mejorar el diseño y arreglar otros bugs.
+
+Subo un vídeo de como funciona la versión alpha.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
